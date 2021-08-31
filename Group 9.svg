@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="30" viewBox="0 0 154.822 59.521">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        font-size: 40px;
+        font-family: SegoeUI-Semibold, Segoe UI;
+        font-weight: 600;
+        letter-spacing: 0.005em;
+      }
+    </style>
+  </defs>
+  <g id="Group_9" data-name="Group 9" transform="translate(-1653 -298)">
+    <g id="cart" transform="translate(1748.78 296.229)">
+      <path id="Path_3" data-name="Path 3" class="cls-1" d="M0,4.218A1.968,1.968,0,0,1,1.968,2.25h5.9A1.968,1.968,0,0,1,9.781,3.742l1.6,6.38h45.7a1.968,1.968,0,0,1,1.933,2.33l-5.9,31.49a1.968,1.968,0,0,1-1.933,1.606H15.745a1.968,1.968,0,0,1-1.933-1.606l-5.9-31.43L6.338,6.186H1.968A1.968,1.968,0,0,1,0,4.218Zm12.209,9.84,5.168,27.553h32.16L54.7,14.059Zm7.472,31.49a7.872,7.872,0,1,0,7.872,7.872A7.872,7.872,0,0,0,19.681,45.548Zm27.553,0a7.872,7.872,0,1,0,7.872,7.872A7.872,7.872,0,0,0,47.234,45.548ZM19.681,49.484a3.936,3.936,0,1,0,3.936,3.936A3.936,3.936,0,0,0,19.681,49.484Zm27.553,0A3.936,3.936,0,1,0,51.17,53.42,3.936,3.936,0,0,0,47.234,49.484Z" transform="translate(0 0)"/>
+    </g>
+    <text id="Cart-2" data-name="Cart" class="cls-2" transform="translate(1653 298)"><tspan x="-38.366" y="43">Cart</tspan></text>
+  </g>
+</svg>

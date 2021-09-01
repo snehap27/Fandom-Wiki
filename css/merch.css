@@ -1,69 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://db.onlinewebfonts.com/c/c7a23d4c15aff59e722ac29d8f69246e?family=Colossalis+BQ");
+
 input {
-    width: 800px;
-    height: 50px;
-    background: #fbfdfd;
-    outline: none;
-    border: none;
-    margin-block-start: 70px;
-    margin-left: 30px;
+  width: 800px;
+  height: 50px;
+  background: #fbfdfd;
+  outline: none;
+  border: none;
+  margin-block-start: 70px;
+  margin-left: 30px;
 }
-#cart{
-    margin-left: 30px;
-    float: right;
-    padding-top: 80px;
-    margin-inline-end: 100px;
+@media screen and (max-width:800px) {
+  input{
+    width:max-content;
+    height: 40px;
+  }
 }
-#cart:hover{
-    cursor: pointer;
+#cart {
+  margin-left: 30px;
+  float: right;
+  padding-top: 80px;
+  margin-inline-end: 100px;
+}
+@media screen and (max-width:800px) {
+  #cart{
+    margin:0;
+    margin-right: 20px;
+    height: 20px;
+  }
+}
+#cart:hover {
+  cursor: pointer;
 }
 .cats {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+@media screen and (max-width:800px) {
+  .cats{
+    width: auto;
+    font-size: 0.5rem;
   }
-.cat{
-      width: 200px;
-      margin-block-start: 40px;
-      padding: 20px;
-      border: dashed 1.5px;
-      border-color: #dde0e0;
-      -webkit-transition: background-color 0.25s ease-out;
-      -moz-transition: background-color 0.25s ease-out;
-      -o-transition: background-color 0.25s ease-out;
-      transition: background-color 0.25s ease-out;
 }
-.cat:hover{
-    cursor: pointer;
+.cat {
+  width: 200px;
+  margin-block-start: 40px;
+  padding: 20px;
+  border: dashed 1.5px;
+  border-color: #dde0e0;
+  -webkit-transition: background-color 0.25s ease-out;
+  -moz-transition: background-color 0.25s ease-out;
+  -o-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
 }
 
-#fill{
-    background-color: #65C1D0;
-    width: 200px;
-    margin-block-start: 40px;
-    padding: 20px;
+.imgs:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.25s;
 }
 
-.cat:hover{
+#fill {
+  background-color: #65c1d0;
+  width: 200px;
+  margin-block-start: 40px;
+  padding: 20px;
+}
+
+.cat:hover {
   background-color: #212749;
 }
 
-.cat h3{
+.cat h3 {
   text-align: center;
   color: #65c1d0;
 }
 .shop-imgs {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
-  }
-.imgs img{
-      height: 240px;
-      width: 240px;
-      margin-block-start:40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
 }
-#va{
-    padding:30px;
-    margin-right: 30px;
+.imgs img {
+  height: 240px;
+  width: 240px;
+  margin-block-start: 40px;
+}
+@media screen and (max-width:800px) {
+  .imgs img{
+  width: 80px;
+  height: 80px;  
+  }
+}
+#va {
+  padding: 30px;
+  margin-right: 30px;
 }

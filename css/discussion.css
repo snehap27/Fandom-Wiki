@@ -1,16 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://db.onlinewebfonts.com/c/c7a23d4c15aff59e722ac29d8f69246e?family=Colossalis+BQ");
+
 .diss {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
   }
+
 .dis{
       height: 180px;
       width: 800px;
-      /* border-radius:5px; */
       padding: 30px;
       font-size: 20px;
       background-color: #fbfdfd;
 }
+@media screen and (max-width:800px) {
+    .dis{
+      height: 70px;
+      width: 280px;
+    }
+  }
 #dis2{
     margin: 20px;
 }
@@ -24,13 +33,33 @@
   line-height: 25px;
   color: #5e5e5e;
 }
+@media screen and (max-width:800px) {
+    .dis p{
+     font-size: 0.45rem;
+     margin: 0;
+    }
+  }
 .dis h3{
     font-weight: normal;
     margin-block-start: 20px;
 }
+@media screen and (max-width:800px) {
+    .dis h3{
+     font-size: 0.65rem;
+     margin-block-start: 10px;
+    }
+  }
 .dis img{
     margin-block-start: 60px;
 }
+@media screen and (max-width:800px) {
+    .dis img{
+  height: 40px;
+  width: 50px;
+  margin: 0;
+  padding: 0;
+    }
+  }
 
 .dis img:hover{
     cursor: pointer ;
@@ -46,6 +75,16 @@ button{
     margin-block-start: 40px;
     font-size: 15px;
 }
+@media screen and (max-width:800px) {
+    button{
+  height: 20px;
+  width: 50px;
+  font-size: 0.5rem;
+  padding: 5px;
+  padding-left: 17px;
+  margin-block-start: 10px;
+    }
+  }
 button:hover{
     background-color: #4447a8;
 }
@@ -58,3 +97,10 @@ button:hover{
     width: 300px;
     float: right;
 }
+@media screen and (max-width:800px) {
+    .about p{
+        font-size: 0.75rem;
+        margin-left: 30px;
+        float: none;
+    }
+  }

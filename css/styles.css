@@ -1,38 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://db.onlinewebfonts.com/c/c7a23d4c15aff59e722ac29d8f69246e?family=Colossalis+BQ");
 * {
-    padding: 0;
-    margin: 0;
-    font-family: "rubik", Segoe UI , Tahoma, Geneva, Verdana, sans-serif;
-    /* color: white; */
-}
-  
-  body {
-    background-color: #101131;
-  }
-  
-  .navbar {
-    display: flex;
-    justify-content:flex-end;
-    width: auto;
-    background-color: #173254;
-    padding:2.5rem 7rem;
+  padding: 0;
+  margin: 0;
+  font-family: "rubik", Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.navbar .nav-item{
-    text-decoration: none;
-    color: #C0E8EF;
-    padding-left: 50px;
-    font-size: 18px;
+body {
+  background-color: #101131;
 }
 
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+  background-color: #173254;
+  padding: 2.5rem 7rem;
+}
+
+.navbar .nav-item {
+  text-decoration: none;
+  color: #c0e8ef;
+  padding-left: 50px;
+  font-size: 18px;
+}
 
 .navbar .nav-item:hover {
-    color: #71b6c5;
-  }
+  color: #71b6c5;
+}
 
-a{
+a {
   font-size: 15px;
 }
-h1{
+@media screen and (max-width: 800) {
+  a {
+    font-size: 10rem;
+  }
+}
+h1 {
   font-family: "Colossalis BQ";
   letter-spacing: 0.1em;
   padding-top: 60px;
@@ -40,15 +45,16 @@ h1{
   color: #65c1d0;
   font-weight: normal;
 }
-.rm{
+.rm {
   display: flex;
   justify-content: flex-end;
   padding-right: 30px;
 }
-.rm p{
+.rm p {
   color: #dde0e0;
   font-size: 17px;
 }
+
 .rm p:hover {
   color: #71b6c5;
 }

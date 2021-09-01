@@ -1,8 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://db.onlinewebfonts.com/c/c7a23d4c15aff59e722ac29d8f69246e?family=Colossalis+BQ");
+
 .chars {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     align-items: center;
+  }
+  @media screen and (max-width:800px) {
+    .chars{
+      flex-direction: column;
+    }
   }
 .char{
       height: 400px;
@@ -17,6 +25,13 @@
       transition: background-color 0.25s ease-out;
 }
 
+@media screen and (max-width:800px) {
+  .char{
+    height: 15rem;
+    font-size: 0.75rem;
+  }
+}
+
 .char:hover{
   background-color: #212749;
 }
@@ -27,6 +42,11 @@
   line-height: 25px;
   letter-spacing: 0.5px;
   color: #dde0e0;
+}
+@media screen and (max-width:800px) {
+  .char p{
+    font-size: 0.75rem;
+  }
 }
 
 .char h3{
@@ -41,11 +61,23 @@
       border-radius: 5px;
   }
 
+@media screen and (max-width:800px) {
+  .char img{
+    height: 80px;
+    width: 80px;
+  }
+}
+
 .riv-chars {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
+}
+@media screen and (max-width:800px) {
+  .riv-chars{
+   flex-direction: column;
+  }
 }
 .char-ell img{
     height: 200px;
@@ -54,6 +86,13 @@
     margin-block-start: 10px;
     padding: 30px;
   }
+
+@media screen and (max-width:800px) {
+  .char-ell img{
+    height: 80px;
+    width: 80px;
+  }
+}
 
 .char-ell img:hover{
   transform: scale(1.1);
